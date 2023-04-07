@@ -26,6 +26,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.git
 MANIFEST
 
 # PyInstaller
@@ -95,6 +96,9 @@ ipython_config.py
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
 
+.vscode/
+.git/
+.gitignore
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
